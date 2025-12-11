@@ -20,7 +20,8 @@
       {
         "group": "Web Extension",
         "pages": [
-          "extension/sorcerer-extension"
+          "extension/sorcerer-extension",
+          "extension/magic"
         ]
       },
       {
