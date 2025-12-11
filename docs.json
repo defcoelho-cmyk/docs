@@ -20,10 +20,9 @@
         ]
       },
       {
-        "group": "Customization",
+        "group": "Telegram",
         "pages": [
-          "essentials/settings",
-          "essentials/navigation"
+          "Telegram/getting-started"
         ]
       },
       {
