@@ -36,7 +36,10 @@
       {
         "group": "Discord",
         "pages": [
-          "discord/add-to-your-server"
+          "discord/join-us",
+          "discord/calls",
+          "discord/daily",
+          "discord/strats"
         ]
       }
     ]
@@ -49,7 +52,7 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "https://discord.gg/SorcererTrading"
       }
     ],
     "primary": {
