@@ -23,7 +23,8 @@
           "extension/sorcerer-extension",
           "extension/magic",
           "extension/positions",
-          "extension/strats"
+          "extension/strats",
+          "extension/profile"
         ]
       },
       {
