@@ -39,7 +39,9 @@
           "discord/join-us",
           "discord/calls",
           "discord/daily",
-          "discord/strats"
+          "discord/strats",
+          "discord/commands",
+          "discord/add-to-your-server"
         ]
       }
     ]
