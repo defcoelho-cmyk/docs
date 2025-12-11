@@ -20,9 +20,25 @@
         ]
       },
       {
-        "group": "Telegram",
+        "group": "Web Extension",
         "pages": [
           "telegram/getting-started"
+        ]
+      },
+      {
+        "group": "Telegram",
+        "pages": [
+          "index",
+          "quickstart",
+          "development"
+        ]
+      },
+      {
+        "group": "Discord",
+        "pages": [
+          "index",
+          "quickstart",
+          "development"
         ]
       }
     ]
