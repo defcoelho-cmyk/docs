@@ -43,6 +43,12 @@
           "discord/commands",
           "discord/add-to-your-server"
         ]
+      },
+      {
+        "group": "Vacktest",
+        "pages": [
+          "backtest/how-to-backtest"
+        ]
       }
     ]
   },

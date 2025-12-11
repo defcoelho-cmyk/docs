@@ -1,0 +1,82 @@
+---
+title: "How to Backtest"
+description: "Test and validate your strategies using our backtesting tool."
+---
+
+<Card title="Backtest Tool" icon="calculator" href="https://backtest.sorcerer.trading/" cta="https://backtest.sorcerer.trading/">
+  Start testing your strategies:
+</Card>
+
+<Steps>
+  <Step title="Connect Your Wallet">
+    Click on Connect Wallet;
+
+    <Tip>
+      If you’re a presale buyer, you’ll receive credits automatically when you log in.
+    </Tip>
+  </Step>
+  <Step title="Setting Parameters">
+    Enter custom parameters for your strategy;
+
+    <AccordionGroup>
+      <Accordion title="Trailing Settings">
+        ![Trail Pn](/images/trail.png)
+
+        You can turn Trailing Ladder on or off. You can use up to 5 pullback levels and close percentages.\
+        \
+        The last level must be 100%, and all previous levels must be below 100%.\
+        \
+        Trailing Activation % defines how much the price must increase before trailing starts.
+
+        <Info>
+          Example: with a 291% activation, trailing only begins once the token is up 291%.
+        </Info>
+      </Accordion>
+      <Accordion title="Take Profit Settings">
+        ![Takeprofit Pn](/images/takeprofit.png)
+
+        You can turn Take Profit Ladder on or off. You can set up to 5 take-profit levels and close percentages.\
+        The last level must be 100%, and all earlier levels must be below 100%.
+
+        <Note>
+          You can use only Take Profit, only Trailing, or a mix of both.
+        </Note>
+      </Accordion>
+      <Accordion title="Core Trade Parameters">
+        ![Core Pn](/images/core.png)
+
+        Set the position size (in SOL) for each trade, the starting capital (both are required to calculate drawdown), the minimum and maximum market cap in K (e.g., 100 = 100,000),\
+        and the Stop Loss as an integer (e.g., 26).
+      </Accordion>
+    </AccordionGroup>
+  </Step>
+  <Step title="Run ">
+    You can run for a single token, or all called tokens. 
+
+    <img
+      src="/images/controls.png"
+      alt="Controls Pn"
+      title="Controls Pn"
+      style={{ width:"52%" }}
+    />
+
+    <Info>
+      For single-token runs, choose a token from the picklist or search for one in the list.
+    </Info>
+    <AccordionGroup>
+      <Accordion title="Single Token Results">
+        ![Single Pn](/images/single.png)
+
+        When running a single token (useful for building strategies that perform well on top winners), you’ll receive the parameters plus 3 graphs.
+      </Accordion>
+      <Accordion title="All Tokens Results">
+        ![Alltokens Pn](/images/alltokens.png)
+
+        When running all tokens, you’ll receive the full multi-token report.
+      </Accordion>
+    </AccordionGroup>
+    Each test shows its name, the date it was run, the results, and all parameters used.
+
+    ![Results Pn](/images/results.png)
+  </Step>
+</Steps>
