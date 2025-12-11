@@ -45,7 +45,7 @@
         ]
       },
       {
-        "group": "Vacktest",
+        "group": "Backtest",
         "pages": [
           "backtest/how-to-backtest"
         ]
