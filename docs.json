@@ -14,32 +14,15 @@
       {
         "group": "Getting started",
         "pages": [
-          "index",
-          "quickstart",
-          "development"
+          "1-getting-started/index",
+          "1-getting-started/quickstart",
+          "1-getting-started/development"
         ]
       },
       {
         "group": "Telegram",
         "pages": [
-          "Telegram/getting-started"
-        ]
-      },
-      {
-        "group": "Writing content",
-        "pages": [
-          "essentials/markdown",
-          "essentials/code",
-          "essentials/images",
-          "essentials/reusable-snippets"
-        ]
-      },
-      {
-        "group": "AI tools",
-        "pages": [
-          "ai-tools/cursor",
-          "ai-tools/claude-code",
-          "ai-tools/windsurf"
+          "2-telegram/getting-started"
         ]
       }
     ]
