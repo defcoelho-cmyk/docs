@@ -20,7 +20,7 @@
       {
         "group": "Web Extension",
         "pages": [
-          "telegram/getting-started"
+          "extension/sorcerer-extension"
         ]
       },
       {
