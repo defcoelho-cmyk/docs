@@ -21,7 +21,8 @@
         "group": "Web Extension",
         "pages": [
           "extension/sorcerer-extension",
-          "extension/magic"
+          "extension/magic",
+          "extension/positions"
         ]
       },
       {
