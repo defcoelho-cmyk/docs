@@ -14,15 +14,15 @@
       {
         "group": "Getting started",
         "pages": [
-          "1-getting-started/index",
-          "1-getting-started/quickstart",
-          "1-getting-started/development"
+          "index",
+          "quickstart",
+          "development"
         ]
       },
       {
         "group": "Telegram",
         "pages": [
-          "2-telegram/getting-started"
+          "telegram/getting-started"
         ]
       }
     ]
