@@ -45,8 +45,10 @@
         ]
       },
       {
-        "group": "Backtest",
+        "group": "Sorcerer",
         "pages": [
+          "sorcerer/fees",
+          "sorcerer/referral",
           "backtest/how-to-backtest"
         ]
       }
