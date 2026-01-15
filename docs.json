@@ -49,6 +49,7 @@
         "pages": [
           "sorcerer/fees",
           "sorcerer/referral",
+          "sorcerer/tokenomics",
           "backtest/how-to-backtest"
         ]
       }
